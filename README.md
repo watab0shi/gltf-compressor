@@ -3,7 +3,7 @@
 install packages
 
 ```
-$yarn
+$ yarn
 ```
 
 Put `.gltf` (+ `.bin` + textures) files in `src` directory.
