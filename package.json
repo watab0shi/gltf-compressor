@@ -1,0 +1,17 @@
+{
+  "name": "gltf-compresser",
+  "version": "1.0.0",
+  "main": "",
+  "license": "MIT",
+  "scripts": {
+    "draco": "node compress-draco.js",
+    "meshopt": "node compress-meshopt.js"
+  },
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "glob": "^7.1.6",
+    "gltf-pipeline": "^3.0.2",
+    "gltfpack": "^0.15.2",
+    "path": "^0.12.7"
+  }
+}
